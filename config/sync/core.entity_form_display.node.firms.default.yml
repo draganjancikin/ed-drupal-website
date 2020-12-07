@@ -1,91 +1,114 @@
-uuid: becde3a7-cd88-469b-9151-cac96876f8fb
+uuid: a394954f-bdbe-4cfe-a3ba-5b80e596e581
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_category
-    - field.field.node.article.field_firm
-    - field.field.node.article.field_image
-    - field.field.node.article.field_tags
+    - field.field.node.firms.body
+    - field.field.node.firms.field_category
+    - field.field.node.firms.field_email
+    - field.field.node.firms.field_facebook
+    - field.field.node.firms.field_linkedin
+    - field.field.node.firms.field_logo
+    - field.field.node.firms.field_phone_number
+    - field.field.node.firms.field_twitter
+    - field.field.node.firms.field_video
     - image.style.thumbnail
-    - node.type.article
+    - node.type.firms
   module:
-    - comment
     - image
+    - link
+    - media_library
     - path
     - text
-_core:
-  default_config_hash: 6VUXB1jTUjK5zjkfMa2Kd2WW4sFUlgfBlfJSx01qLpU
-id: node.article.default
+id: node.firms.default
 targetEntityType: node
-bundle: article
+bundle: firms
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
-    region: content
+    weight: 9
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 7
     region: content
-    settings: {  }
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   field_category:
+    weight: 15
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_email:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_facebook:
+    weight: 14
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_linkedin:
     weight: 12
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: link_default
     region: content
-  field_firm:
+  field_logo:
     weight: 10
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_image:
-    type: image_image
-    weight: 1
-    region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 11
+    type: image_image
     region: content
+  field_phone_number:
+    weight: 7
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_twitter:
+    weight: 13
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_video:
+    type: media_library_widget
+    weight: 11
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
   path:
     type: path
-    weight: 8
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -93,21 +116,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 5
+    weight: 3
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 6
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 4
     region: content
     third_party_settings: {  }
   title:
@@ -120,12 +143,12 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
-    region: content
+    weight: 1
     settings:
       match_operator: CONTAINS
-      match_limit: 10
       size: 60
       placeholder: ''
+      match_limit: 10
+    region: content
     third_party_settings: {  }
 hidden: {  }

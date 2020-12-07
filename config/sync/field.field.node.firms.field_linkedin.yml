@@ -1,0 +1,23 @@
+uuid: abe7c557-e8e9-4847-bc44-cbf103de965b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linkedin
+    - node.type.firms
+  module:
+    - link
+id: node.firms.field_linkedin
+field_name: field_linkedin
+entity_type: node
+bundle: firms
+label: LinkedIn
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

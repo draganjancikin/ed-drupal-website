@@ -1,0 +1,23 @@
+uuid: 0aaaa1a1-ba71-4408-a41e-fb820c481aa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.firms
+  module:
+    - text
+id: node.firms.body
+field_name: body
+entity_type: node
+bundle: firms
+label: About
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

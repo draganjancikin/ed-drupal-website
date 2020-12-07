@@ -1,29 +1,27 @@
-uuid: d469a55c-2fc1-417e-87e3-8f59e68a229d
+uuid: ce088a36-8a05-4b7b-a417-8fde6f0e0779
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - node.type.article
+    - field.storage.node.field_logo
+    - node.type.firms
   module:
     - image
-_core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
-id: node.article.field_image
-field_name: field_image
+id: node.firms.field_logo
+field_name: field_logo
 entity_type: node
-bundle: article
-label: 'Featured image'
+bundle: firms
+label: Logo
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: articles
+  file_directory: firms
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: '500 KB'
-  max_resolution: 1920x1080
+  max_filesize: '100 KB'
+  max_resolution: 800x800
   min_resolution: 200x200
   alt_field: true
   alt_field_required: true
