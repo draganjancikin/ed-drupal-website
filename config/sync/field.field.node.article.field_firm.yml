@@ -1,0 +1,28 @@
+uuid: a05e28d6-02e5-4687-90dd-48e986751191
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_firm
+    - node.type.article
+    - node.type.firms
+id: node.article.field_firm
+field_name: field_firm
+entity_type: node
+bundle: article
+label: Firm
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      firms: firms
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,46 @@
+uuid: e3e1f9ea-bf6d-4e9f-b1f6-b4fbc2161467
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.firms.body
+    - field.field.node.firms.field_category
+    - field.field.node.firms.field_email
+    - field.field.node.firms.field_facebook
+    - field.field.node.firms.field_linkedin
+    - field.field.node.firms.field_logo
+    - field.field.node.firms.field_phone_number
+    - field.field.node.firms.field_twitter
+    - field.field.node.firms.field_video
+    - node.type.firms
+  module:
+    - text
+    - user
+id: node.firms.teaser
+targetEntityType: node
+bundle: firms
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_category: true
+  field_email: true
+  field_facebook: true
+  field_linkedin: true
+  field_logo: true
+  field_phone_number: true
+  field_twitter: true
+  field_video: true

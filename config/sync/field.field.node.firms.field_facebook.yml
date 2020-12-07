@@ -1,0 +1,23 @@
+uuid: b117a307-c7a8-4880-adf9-d52f841a581f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_facebook
+    - node.type.firms
+  module:
+    - link
+id: node.firms.field_facebook
+field_name: field_facebook
+entity_type: node
+bundle: firms
+label: Facebook
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link
