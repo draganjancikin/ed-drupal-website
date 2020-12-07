@@ -23,6 +23,19 @@ web/sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
 web/sites/*/files
+
+# Exclude specific subdirectory
+# Un-ignore the affected subdirectory
+!web/sites/*/files/
+# Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
+web/sites/*/files/*
+# This pattern only works with the two previous patterns
+# (i remember it was working alone on older git versions)
+!web/sites/*/files/articles/
+!web/sites/*/files/firms/
+!web/sites/*/files/oembed_thumbnails/
+
+
 web/sites/*/private
 
 # Ignore SimpleTest multi-site environment.

@@ -21,3 +21,8 @@
   * a few terms to Category vocabulary
   * a few Firms
   * a few Articles
+
+### 1.2.1
+
+* .gitignore update - Exclude from .gitignore /files/ subfolders: articles, firms and oembed_thumbnail
+* Add to repo some web/**/files for testing purpose
