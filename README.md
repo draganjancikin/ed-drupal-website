@@ -12,3 +12,12 @@
 
 * Add content types: Firms, Articles, Basic Pages
 * Add taxonomy vocabulary: Category, Tags
+
+### 1.2.0
+
+* Set the navigation (both header and footer)
+* Set the Views to print the content types (Firms and Articles)
+* Add content for testing:
+  * a few terms to Category vocabulary
+  * a few Firms
+  * a few Articles
