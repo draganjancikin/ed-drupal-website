@@ -35,9 +35,9 @@ Bonus assignment:
 * Install drupal website
 
 ```bash
- drush site:install --site-name=<site_name>
-                    --db-url=mysql://<mysql_user_name>:<mysql_user_password>@<server_name>:3306/<data_base_name>
-                    --account-name=<user_1_name> --account-pass=<user_1_password>
+ drush si --site-name=<site_name>
+          --db-url=mysql://<mysql_user_name>:<mysql_user_password>@<server_name>:3306/<data_base_name>
+          --account-name=<user_1_name> --account-pass=<user_1_password>
 ```
 
 ## Versions
