@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [Project tasks](#project-tasks)
+* [Installation notes](#basic-installation-notes)
 * [Versions](#versions)
 
 ## Project Tasks
@@ -12,6 +13,26 @@
 3. [x] Set the navigation (both header and footer)
 4. [x] Set the Views to print the content types
 5. [ ] Bonus assignment: Set the contextual filters and sorting for Views
+
+## Basic Installation Notes
+
+* Get code from repository
+
+```bash
+ git clone git@github.com:draganjancikin/ed-drupal-website.git
+```
+
+* Get required packages
+
+```bash
+ composer install
+```
+
+* Install drupal website
+
+```bash
+ drush site:install --site-name=<site_name> --db-url=mysql://<mysql_user_name>:<mysql_user_password>@<server_name>:3306/<data_base_name> --account-name=<user_1_name> --account-pass=<user_1_password>
+```
 
 ## Versions
 
