@@ -1,10 +1,5 @@
 # ED Drupal Website Assignment
 
-## Table of Contents
-
-* [Project tasks](#project-tasks)
-* [Versions](#versions)
-
 ## Project Tasks
 
 1. [x] Create content types with their respective fields
