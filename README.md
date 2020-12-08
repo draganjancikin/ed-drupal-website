@@ -1,4 +1,17 @@
-# ED Drupal Website
+# ED Drupal Website Assignment
+
+## Table of Contents
+
+* [Project tasks](#project-tasks)
+* [Versions](#versions)
+
+## Project Tasks
+
+1. [x] Create content types with their respective fields
+2. [x] Create the taxonomy
+3. [x] Set the navigation (both header and footer)
+4. [x] Set the Views to print the content types
+5. [ ] Bonus assignment: Set the contextual filters and sorting for Views
 
 ## Versions
 
@@ -26,3 +39,7 @@
 
 * .gitignore update - Exclude from .gitignore /files/ subfolders: articles, firms and oembed_thumbnail
 * Add to repo some web/**/files for testing purpose
+
+### 1.3.0
+
+* Set the sorting for Views (by Authored on and Title)
