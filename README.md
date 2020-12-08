@@ -12,7 +12,11 @@
 2. [x] Create the taxonomy
 3. [x] Set the navigation (both header and footer)
 4. [x] Set the Views to print the content types
-5. [ ] Bonus assignment: Set the contextual filters and sorting for Views
+
+Bonus assignment:
+
+* [x] Set the sorting for Views
+* [ ] Set the contextual filters Views
 
 ## Basic Installation Notes
 
@@ -31,7 +35,9 @@
 * Install drupal website
 
 ```bash
- drush site:install --site-name=<site_name> --db-url=mysql://<mysql_user_name>:<mysql_user_password>@<server_name>:3306/<data_base_name> --account-name=<user_1_name> --account-pass=<user_1_password>
+ drush site:install --site-name=<site_name>
+                    --db-url=mysql://<mysql_user_name>:<mysql_user_password>@<server_name>:3306/<data_base_name>
+                    --account-name=<user_1_name> --account-pass=<user_1_password>
 ```
 
 ## Versions
