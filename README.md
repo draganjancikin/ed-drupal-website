@@ -19,11 +19,10 @@ Bonus assignment:
 
 ### Suggestions for improvements
 
-* [ ] Enabled "Telephone" module for phone number
-* [ ] Set up external links to open in new tab
-* [ ] Set up email field to open in email client
-* [ ] For social links install and enable "Social Media Links Block and Field" modul
-* [ ] For embed You Tube video install and enable "Video" module
+* [x] Enabled "Telephone" module for phone number and use telephone field in content types
+* [x] Set up email field to open in email client
+* [x] For social links install, enable and use "Social Media Links Block and Field" modules
+* [x] For embed You Tube video install, enable and use "Video" module
 
 ## Versions
 
@@ -55,3 +54,11 @@ Bonus assignment:
 ### 1.3.0
 
 * Set the sorting for Views (by Authored on and Title)
+
+### 1.4.0 - Suggestions and Improvements
+
+* Enabled "Telephone" module for phone number and use telephone field in content types
+* Set up email field to open in email client
+* Install and enable "Module Filter" module
+* Install, enable and use "Social Media Links Block and Field" modules
+* Install, enable and use "Video" module for embed You Tube video
