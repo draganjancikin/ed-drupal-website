@@ -1,11 +1,12 @@
-uuid: 46eec623-5400-49c2-982d-c880d020aeea
+uuid: 2bb11941-3946-474a-953a-b0c95382182c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_video
-    - media.type.remote_video
     - node.type.firms
+  module:
+    - video
 id: node.firms.field_video
 field_name: field_video
 entity_type: node
@@ -17,12 +18,9 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:media'
-  handler_settings:
-    target_bundles:
-      remote_video: remote_video
-    sort:
-      field: _none
-    auto_create: false
-    auto_create_bundle: ''
-field_type: entity_reference
+  file_extensions: ''
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: video

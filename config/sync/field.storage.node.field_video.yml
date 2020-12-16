@@ -1,17 +1,24 @@
-uuid: 482335a1-fbb9-46a5-8a77-993a4125c148
+uuid: f402c1fd-eb34-43a6-a516-6a749c6e8362
 langcode: en
 status: true
 dependencies:
   module:
-    - media
+    - file
     - node
+    - video
 id: node.field_video
 field_name: field_video
 entity_type: node
-type: entity_reference
+type: video
 settings:
-  target_type: media
-module: core
+  default_video:
+    uuid: null
+    data: null
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: video
 locked: false
 cardinality: 1
 translatable: true

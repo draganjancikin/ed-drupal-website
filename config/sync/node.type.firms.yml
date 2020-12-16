@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Firms
 type: firms
-description: ''
+description: 'Use <em>firms</em> for information about companys. '
 help: ''
 new_revision: true
 preview_mode: 1

@@ -1,10 +1,12 @@
-uuid: 0586f18b-8cdc-4aad-93cc-4aac0827fec1
+uuid: de889579-2f38-476b-9b14-f6f741fa539e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_phone_number
     - node.type.firms
+  module:
+    - telephone
 id: node.firms.field_phone_number
 field_name: field_phone_number
 entity_type: node
@@ -16,4 +18,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: telephone
