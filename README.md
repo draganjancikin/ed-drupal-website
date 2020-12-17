@@ -1,6 +1,11 @@
 # ED Drupal Website Assignment
 
-## Project Tasks
+## Content Index
+
+* [Project Tasks: Part One](#project-tasks-part-one)
+* [Versions](#versions)
+
+## Project Tasks: Part One
 
 1. [x] Create content types with their respective fields
 2. [x] Create the taxonomy
@@ -11,6 +16,13 @@ Bonus assignment:
 
 * [x] Set the sorting for Views
 * [ ] Set the contextual filters Views
+
+### Suggestions for improvements
+
+* [x] Enabled "Telephone" module for phone number and use telephone field in content types
+* [x] Set up email field to open in email client
+* [x] For social links install, enable and use "Social Media Links Block and Field" modules
+* [x] For embed You Tube video install, enable and use "Video" module
 
 ## Versions
 
@@ -42,3 +54,11 @@ Bonus assignment:
 ### 1.3.0
 
 * Set the sorting for Views (by Authored on and Title)
+
+### 1.4.0 - Suggestions and Improvements
+
+* Enabled "Telephone" module for phone number and use telephone field in content types
+* Set up email field to open in email client
+* Install and enable "Module Filter" module
+* Install, enable and use "Social Media Links Block and Field" modules
+* Install, enable and use "Video" module for embed You Tube video

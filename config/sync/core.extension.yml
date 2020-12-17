@@ -28,6 +28,7 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  module_filter: 0
   node: 0
   options: 0
   page_cache: 0
@@ -37,13 +38,17 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  social_media_links: 0
+  social_media_links_field: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
+  video: 0
   views_ui: 0
   views: 10
   standard: 1000
