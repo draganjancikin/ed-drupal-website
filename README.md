@@ -62,3 +62,7 @@ Bonus assignment:
 * Install and enable "Module Filter" module
 * Install, enable and use "Social Media Links Block and Field" modules
 * Install, enable and use "Video" module for embed You Tube video
+
+### 1.4.1
+
+* Remove web/sites/*/files from Git
