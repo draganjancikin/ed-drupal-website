@@ -26,7 +26,7 @@ Bonus assignment:
 
 ## Project Tasks: Part Two
 
-* 1. [ ] Set up url aliases for content types
+* 1. [x] Set up url aliases for content types
 
 ## Versions
 
@@ -70,3 +70,8 @@ Bonus assignment:
 ### 1.4.1
 
 * Remove web/sites/*/files from Git
+
+### 1.5.0
+
+* Install and enable modules: "Pathauto", "Chaos Tool Suite" and "Token"
+* Set up url aliases for content types (Firms, Articles, Basic pages)
