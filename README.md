@@ -24,6 +24,10 @@ Bonus assignment:
 * [x] For social links install, enable and use "Social Media Links Block and Field" modules
 * [x] For embed You Tube video install, enable and use "Video" module
 
+## Project Tasks: Part Two
+
+* 1. [ ] Set up url aliases for content types
+
 ## Versions
 
 ### 1.0.0 - Basic website installation
