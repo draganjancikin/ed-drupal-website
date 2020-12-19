@@ -24,6 +24,10 @@ Bonus assignment:
 * [x] For social links install, enable and use "Social Media Links Block and Field" modules
 * [x] For embed You Tube video install, enable and use "Video" module
 
+## Project Tasks: Part Two
+
+* 1. [x] Set up url aliases for content types
+
 ## Versions
 
 ### 1.0.0 - Basic website installation
@@ -60,9 +64,14 @@ Bonus assignment:
 * Enabled "Telephone" module for phone number and use telephone field in content types
 * Set up email field to open in email client
 * Install and enable "Module Filter" module
-* Install, enable and use "Social Media Links Block and Field" modules
+* Install, enable and use "Social Media Links Block and Field" modules for social links
 * Install, enable and use "Video" module for embed You Tube video
 
 ### 1.4.1
 
 * Remove web/sites/*/files from Git
+
+### 1.5.0
+
+* Install and enable modules: "Pathauto", "Chaos Tool Suite" and "Token"
+* Set up url aliases for content types (Firms, Articles, Basic pages)
