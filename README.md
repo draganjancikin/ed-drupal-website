@@ -60,7 +60,7 @@ Bonus assignment:
 * Enabled "Telephone" module for phone number and use telephone field in content types
 * Set up email field to open in email client
 * Install and enable "Module Filter" module
-* Install, enable and use "Social Media Links Block and Field" modules
+* Install, enable and use "Social Media Links Block and Field" modules for social links
 * Install, enable and use "Video" module for embed You Tube video
 
 ### 1.4.1
