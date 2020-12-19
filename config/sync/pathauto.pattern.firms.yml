@@ -1,0 +1,22 @@
+uuid: 6a2c21fe-3081-47fa-9acb-af07b84bd4b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: firms
+label: Firms
+type: 'canonical_entities:node'
+pattern: 'firm/[node:title]'
+selection_criteria:
+  ecf867f7-7807-4295-972e-4abb31c5839b:
+    id: node_type
+    bundles:
+      firms: firms
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ecf867f7-7807-4295-972e-4abb31c5839b
+selection_logic: and
+weight: -5
+relationships: {  }
