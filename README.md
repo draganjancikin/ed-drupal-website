@@ -3,6 +3,7 @@
 ## Content Index
 
 * [Project Tasks: Part One](#project-tasks-part-one)
+* [Project Tasks: Part Two](#project-tasks-part-two)
 * [Versions](#versions)
 
 ## Project Tasks: Part One
@@ -26,7 +27,10 @@ Bonus assignment:
 
 ## Project Tasks: Part Two
 
-* 1. [x] Set up url aliases for content types
+* [x] Set up url aliases for content types
+* [x] Create View that show all Firms in the block, with category filter exposed
+* [x] Create a new view mode for Firms, and show fields logo and phone number in this view mode
+* [x] Create a new basic page, that show Firms block
 
 ## Versions
 
@@ -75,3 +79,10 @@ Bonus assignment:
 
 * Install and enable modules: "Pathauto", "Chaos Tool Suite" and "Token"
 * Set up url aliases for content types (Firms, Articles, Basic pages)
+
+### 1.6.0
+
+* Add '/config/*.zip' to .gitignore
+* Created View that show all Firms in the block, with category filter exposed
+* Created new view mode for content type Firms: "Basic info". This view mode show fields: log and phone number
+* Created new basic page, that show Firms block

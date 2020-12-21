@@ -1,0 +1,48 @@
+uuid: d978b1e7-67e0-4177-856a-fa508292bc6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.basic_info
+    - field.field.node.firms.body
+    - field.field.node.firms.field_category
+    - field.field.node.firms.field_email
+    - field.field.node.firms.field_logo
+    - field.field.node.firms.field_phone_number
+    - field.field.node.firms.field_social_media_links
+    - field.field.node.firms.field_video
+    - image.style.thumbnail
+    - node.type.firms
+  module:
+    - image
+    - telephone
+    - user
+id: node.firms.basic_info
+targetEntityType: node
+bundle: firms
+mode: basic_info
+content:
+  field_logo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_phone_number:
+    weight: 1
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+hidden:
+  body: true
+  field_category: true
+  field_email: true
+  field_social_media_links: true
+  field_video: true
+  links: true

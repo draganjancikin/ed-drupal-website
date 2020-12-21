@@ -1,0 +1,10 @@
+uuid: 445f9b66-eae7-4142-9003-cd065ecd253a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.basic_info
+label: 'Basic info'
+targetEntityType: node
+cache: true

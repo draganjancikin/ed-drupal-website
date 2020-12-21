@@ -1,0 +1,30 @@
+uuid: b4c9e38a-831b-4489-8c45-33eff51f351b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.firms
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__firms_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:firms-block_1'
+settings:
+  id: 'views_block:firms-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /firms-categorys
+    negate: false
+    context_mapping: {  }
