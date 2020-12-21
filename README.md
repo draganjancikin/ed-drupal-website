@@ -31,6 +31,8 @@ Bonus assignment:
 * [x] Create View that show all Firms in the block, with category filter exposed
 * [x] Create a new view mode for Firms, and show fields logo and phone number in this view mode
 * [x] Create a new basic page, that show Firms block
+* [x] Create a new role: "Subscribers", and setup page "/firms" to be accessible only users with this role
+* [x] Setup contextual filter for view on page "/firms": Date of firm publish (year)
 
 ## Versions
 
@@ -86,3 +88,9 @@ Bonus assignment:
 * Created View that show all Firms in the block, with category filter exposed
 * Created new view mode for content type Firms: "Basic info". This view mode show fields: log and phone number
 * Created new basic page, that show Firms block
+
+### 1.7.0
+
+* Created new role: "Subscribers", and setup page "/firms" to be accessible only users with this role
+* Rearanged main menu
+* Setup contextual filter for view on page "/firms": Date of firm publish (year)
