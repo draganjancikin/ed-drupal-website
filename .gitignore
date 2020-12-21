@@ -28,8 +28,7 @@ web/sites/*/private
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
 
-# Ignore configuration files that may contain sensitive information.
-# */settings*.php
-
+# Ignore archive files that may contain sensitive information
 /config/*.sql
 /config/*.sql.gz
+/config/*.zip
