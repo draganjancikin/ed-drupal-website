@@ -34,6 +34,11 @@ Bonus assignment:
 * [x] Create a new role: "Subscribers", and setup page "/firms" to be accessible only users with this role
 * [x] Setup contextual filter for view on page "/firms": Date of firm publish (year)
 
+Bonus assignment:
+
+* [x] Create custom module that will print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If is user
+Anonymous don't not allow him access to the page
+
 ## Versions
 
 ### 1.0.0 - Basic website installation
@@ -94,3 +99,12 @@ Bonus assignment:
 * Created new role: "Subscribers", and setup page "/firms" to be accessible only users with this role
 * Rearanged main menu
 * Setup contextual filter for view on page "/firms": Date of firm publish (year)
+
+### 1.8.0
+
+* Created a custom module that print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If is user
+Anonymous, don't allow him access to the page
+
+### 1.8.1
+
+* Add block to custom module "Hello User"

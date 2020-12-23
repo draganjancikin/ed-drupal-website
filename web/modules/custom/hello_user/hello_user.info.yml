@@ -1,0 +1,6 @@
+name: Hello User Module
+description: Creates a page showing "Hello {user}".
+package: Custom
+
+type: module
+core: 8.x
