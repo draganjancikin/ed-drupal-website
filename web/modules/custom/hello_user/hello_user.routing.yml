@@ -4,4 +4,4 @@ hello_user.content:
     _controller: '\Drupal\hello_user\Controller\HelloUserController::content'
     _title: 'Pozdrav korisniku'
   requirements:
-    _role: 'authenticated'
+    _user_is_logged_in: 'true'

@@ -21,7 +21,7 @@ class HelloUserController extends ControllerBase {
       '#type' => 'markup',
       '#markup' => $this->t('Zdravo ') . $current_user . '!',
     ];
-    return $build;
+    return [];
   }
 
 }
