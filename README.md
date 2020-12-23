@@ -36,7 +36,7 @@ Bonus assignment:
 
 Bonus assignment:
 
-* [ ] Create custom module that will print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If is user
+* [x] Create custom module that will print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If is user
 Anonymous don't not allow him access to the page
 
 ## Versions
@@ -99,3 +99,8 @@ Anonymous don't not allow him access to the page
 * Created new role: "Subscribers", and setup page "/firms" to be accessible only users with this role
 * Rearanged main menu
 * Setup contextual filter for view on page "/firms": Date of firm publish (year)
+
+### 1.8.0
+
+* Created a custom module that print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If is user
+Anonymous, don't allow him access to the page
