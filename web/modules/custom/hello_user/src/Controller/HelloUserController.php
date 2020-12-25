@@ -16,12 +16,9 @@ class HelloUserController extends ControllerBase {
    *   Return markup array.
    */
   public function content() {
-    $current_user = \Drupal::currentUser()->getAccountName();
-    $build = [
-      '#type' => 'markup',
-      '#markup' => $this->t('Zdravo ') . $current_user . '!',
-    ];
-    return [];
+    $hello_user_block = \Drupal::service('plugin.manager.block')->createInstance('hello_user', []);
+    return $hello_user_block->build();
   }
 
 }
+
