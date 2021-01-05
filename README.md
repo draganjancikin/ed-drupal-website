@@ -102,9 +102,14 @@ Anonymous don't not allow him access to the page
 
 ### 1.8.0
 
-* Created a custom module that print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If is user
-Anonymous, don't allow him access to the page
+* Created a custom module "Hello User Module" that print 'Zdravo' and username in block on path '/pozdrav-korisniku'. If
+ is user Anonymous, don't allow him access to the page
 
 ### 1.8.1
 
-* Add block to custom module "Hello User"
+* Add block "Helo User Block" to custom module "Hello User Module", that print 'Zdravo' and username in block on path
+'/pozdrav-korisniku'. If is user Anonymous, don't allow him access to the page
+
+### 1.8.2
+
+* Set custom module "Helo User Module" to print block "Halo User Block" in page content
