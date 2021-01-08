@@ -113,3 +113,12 @@ Anonymous don't not allow him access to the page
 ### 1.8.2
 
 * Set custom module "Helo User Module" to print block "Halo User Block" in page content
+
+### 1.9.0
+
+* Install "Empty Page" module, for pages that only consist of blocks
+* Remove route from hello_user.routing.yml
+* Add new Empty Page menu callback: /pozdrav-korisniku
+* Placed block hello_user_block on route /pozdrav-korisniku
+* Gave permission to Authenticated User to access to the pages which are created by Empty Page
+* Remove hello_user.routing.yml and HelloUserController.php

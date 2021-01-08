@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^2.4",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/empty_page": "^3.0",
         "drupal/module_filter": "^3.1",
         "drupal/pathauto": "^1.8",
         "drupal/social_media_links": "^2.7",

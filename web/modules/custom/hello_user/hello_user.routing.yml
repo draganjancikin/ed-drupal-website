@@ -1,7 +1,0 @@
-hello_user.content:
-  path: '/pozdrav-korisniku'
-  defaults:
-    _controller: '\Drupal\hello_user\Controller\HelloUserController::content'
-    _title: 'Pozdrav korisniku'
-  requirements:
-    _user_is_logged_in: 'true'
