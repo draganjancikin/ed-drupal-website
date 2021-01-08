@@ -10,8 +10,7 @@ function hello_user_help($route_name, RouteMatchInterface $route_match) {
     case 'help.page.hello_user':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('This is an custom module that print message "Zdravo User!" on path
-      "/pozdrav-korisniku" ') . '</p>';
+      $output .= '<p>' . t('This is an custom module that print message "Zdravo User!" in HelloUserBlock') . '</p>';
       return $output;
     default:
   }
