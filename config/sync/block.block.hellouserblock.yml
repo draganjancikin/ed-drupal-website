@@ -1,0 +1,34 @@
+uuid: 5d4a02a9-dd3a-4c68-896d-01b3a8f59c31
+langcode: en
+status: true
+dependencies:
+  module:
+    - hello_user
+    - system
+    - user
+  theme:
+    - bartik
+id: hellouserblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: hello_user
+settings:
+  id: hello_user
+  label: 'Hello User block'
+  provider: hello_user
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /pozdrav-korisniku
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
