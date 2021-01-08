@@ -19,10 +19,15 @@ class HelloUserBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    $current_user = \Drupal::currentUser()->getAccountName();
     return [
-      '#markup' => $this->t('Zdravo ') . $current_user . '!',
+      '#markup' => $this->createHelloMessage(),
     ];
+  }
+
+  private function createHelloMessage() {
+    $current_username = \Drupal::currentUser()->getAccountName();
+    $message = $this->t(sprintf("Zdravo %s!", $current_username));
+    return $message;
   }
 
 }
